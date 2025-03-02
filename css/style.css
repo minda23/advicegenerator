@@ -1,85 +1,81 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
 body {
-	background-color: #202632;
-	line-height: 1.1;
-	font-size: 1rem;
-	margin: 0;
-	padding: 0;
-	  font-family: "Manrope", sans-serif;
-	box-sizing: border-box;
+    background-color: #202632;
+    line-height: 1.1;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    font-family: "Manrope", sans-serif;
+    box-sizing: border-box;
 }
 
 
-.main{
-	   display: flex;
+.main {
+    display: flex;
     justify-content: center;
     align-items: center;
-  
+
 }
 
 
 .mainquete {
     display: flex;
     background-color: #313a49;
-    width: 100%;
-    max-width: 23rem;
     padding: 6rem;
     border-radius: 1rem;
-    flex-direction: column; 
-    align-items: center; 
+    flex-direction: column;
+    align-items: center;
     align-content: center;
-    justify-content: center; 
-    text-align: center; 
+    justify-content: center;
+    text-align: center;
     margin-top: 12rem;
-    gap: 1rem;
-    position: relative;
-}
-.border{
-	margin-top:-1rem;
+    gap: 1rem
 }
 
-p{
-	font-size: 1.8rem;
-	color:#cee2e8;
-	margin-bottom: 2rem;
-	line-height: 2.5rem;
-	width: 28rem /* Adjusted for better readability */
-   
+.border {
+    margin-top: -1rem;
+}
+
+p {
+    font-size: 1.8rem;
+    color: #cee2e8;
+    margin-bottom: 2rem;
+    line-height: 2.5rem;
+    width: 28rem
 }
 
 
 .icon {
-    position: absolute;
-    bottom: -2rem;
-    width: 6rem; 
+    width: 6rem;
     height: 6rem;
-    background-color:#53ffab; 
-    border-radius: 50%; 
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    
+    background-color: #53ffab;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
-span{
-	color:#53ffab;
-	font-size: 1.1rem;
+span {
+    color: #53ffab;
+    font-size: 1.1rem;
     margin-top: -4rem;
     margin-bottom: 1rem;
 }
 
 .icon img {
-    width: 1.5rem; /* Adjusted size for the image icon */
-    height: auto; /* Zachovanie pomeru strán obrázka */
-    cursor: pointer; /* Zmena kurzora na pointer pri hoveri */
+    width: 1.5rem;
+    height: auto;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 600px) {
-     .mainquete {
+    .mainquete {
         padding: 3rem;
         margin-top: 10rem;
-        margin-left: 1rem; /* Add margin to the left */
-        margin-right: 1rem; /* Add margin to the right */
+        margin-left: 1rem;
+        margin-right: 1rem;
         width: 58%;
     }
 
@@ -88,20 +84,20 @@ span{
     }
 
     p {
-        font-size: 1.2rem; 
-        line-height: 1.5rem; 
+        font-size: 1.2rem;
+        line-height: 1.5rem;
         width: 100%;
-        max-width: 20rem; 
+        max-width: 20rem;
     }
 
     .icon {
-        width: 4rem; 
-        height: 4rem; 
-        bottom: -1rem; 
+        width: 4rem;
+        height: 4rem;
+        bottom: -1rem;
     }
 
     .icon img {
-        width: 1rem; 
+        width: 1rem;
     }
 
     .border img {
@@ -110,4 +106,3 @@ span{
         width: 70%;
     }
 }
-
