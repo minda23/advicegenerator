@@ -22,6 +22,8 @@ body {
 .mainquete {
     display: flex;
     background-color: #313a49;
+    width: 100%;
+    max-width: 23rem;
     padding: 6rem;
     border-radius: 1rem;
     flex-direction: column;
@@ -30,7 +32,8 @@ body {
     justify-content: center;
     text-align: center;
     margin-top: 12rem;
-    gap: 1rem
+    gap: 1rem;
+    position: relative;
 }
 
 .border {
@@ -43,10 +46,14 @@ p {
     margin-bottom: 2rem;
     line-height: 2.5rem;
     width: 28rem
+        /* Adjusted for better readability */
+
 }
 
 
 .icon {
+    position: absolute;
+    bottom: -2rem;
     width: 6rem;
     height: 6rem;
     background-color: #53ffab;
@@ -66,8 +73,11 @@ span {
 
 .icon img {
     width: 1.5rem;
+    /* Adjusted size for the image icon */
     height: auto;
+    /* Zachovanie pomeru strán obrázka */
     cursor: pointer;
+    /* Zmena kurzora na pointer pri hoveri */
 }
 
 @media only screen and (max-width: 600px) {
@@ -75,7 +85,9 @@ span {
         padding: 3rem;
         margin-top: 10rem;
         margin-left: 1rem;
+        /* Add margin to the left */
         margin-right: 1rem;
+        /* Add margin to the right */
         width: 58%;
     }
 
